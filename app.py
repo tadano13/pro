@@ -4,7 +4,7 @@ import pickle
 from sklearn.preprocessing import LabelEncoder
 
 # Load the pre-trained Linear Regression model
-with open('linear_regression_model.pkl', 'rb') as file:
+with open('random_forest_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Define feature columns (updated)
